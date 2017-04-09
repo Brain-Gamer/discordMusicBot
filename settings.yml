@@ -1,0 +1,17 @@
+# Settings file for discord music bot
+
+# ------<<< REQUIRED >>>------
+# Your Discord bot token (Rvc4OTE5NKY7MxQ3NDk5NDW5.X4iCRA.CfQil-rofah0fBKwqyMDmaF83W1)
+botToken: null
+# Your YouTube APIv3 key (ALzaSxYmuYTSj6ce1xNahv254Gz1GlJwYMRZLj0)
+ytApiKey: null
+
+# ------<<< OPTIONAL >>>------
+# Prefix for the commands (Default: $)
+cmdPrefix: $
+# Audio quality for ytdl-core
+audioQuality: 250
+# Game currenty played
+customGame:
+  active: false   # Show game (true) or music (false) title?
+  title: Nothing  # Title of the game
